@@ -18,6 +18,7 @@ tests_require = [
     "black>=20.8b1",
     "invenio-app>=1.3.2",
     "pytest-invenio>=1.4.2",
+    "mock>=4.0.0",
 ]
 
 records_resources_version = ">=0.18.3,<0.19"
@@ -57,7 +58,7 @@ setup_requires = [
 install_requires = [
     "invenio-db>=1.0.11,<2.0",
     f"invenio-records-resources{records_resources_version}",
-    "invenio-theme>=1.3.11"
+    "invenio-theme>=1.3.11",
 ]
 
 packages = find_packages()
